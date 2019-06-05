@@ -25,8 +25,8 @@ yarn add chartkick chart.js
 And in `app/javascript/packs/application.js`, add:
 
 ```js
-require("chartkick")
-require("chart.js")
+import("chartkick")
+import("chart.js")
 ```
 
 For Rails 5 / Sprockets, in `app/assets/javascripts/application.js`, add:
